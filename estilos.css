@@ -1,0 +1,307 @@
+div{
+}
+.padre{
+	display:flex;
+	flex-direction:column;
+	height:auto;
+	width:100%;
+}
+.logo{
+	height:19vh;
+	width:30%;
+	border-top-left-radius:20px;
+	border-top-right-radius:20px;
+	border-bottom-right-radius:20px;
+}
+.logo2{
+	height:18vh;
+	width:14%;
+}
+.hijo1{
+	display:flex;
+	width:100%;
+	height:auto;
+}
+.hijo1 img{
+	width:100%;
+}
+.hijo2{
+	display:flex;
+	flex-wrap:wrap;
+	flex-direction:row;
+	justify-content:space-evenly;
+	width:100%;
+	height:auto;
+}
+.nieto{
+	display:flex;
+	flex-direction:column;
+	flex-wrap:no-wrap;
+	height:auto;
+	width:22%;
+	border-color:#c7c4c3;
+	border-style:solid;
+	border-radius:10px;
+	margin:1px;
+	margin-top:30px;
+	margin-bottom:45px;
+	text-align:center;
+	padding:1.5%;
+}
+.nieto h2{
+	font-size:22px;
+	margin-bottom:-4px;
+	margin-top:-4px;
+}
+.nieto p{
+	color:#A09F9E;
+	font-size:17px;
+} 
+.nieto img{
+	display:block;
+	margin:auto;
+}
+.nieto2{
+	display:flex;
+	flex-direction:column;
+	flex-wrap:no-wrap;
+	height:auto;
+	width:22%;
+	border-color:#A09F9E;
+	border-style:solid;
+	border-radius:10px;
+	margin:1px;
+	margin-top:30px;
+	margin-bottom:45px;
+	text-align:center;
+	padding:1.5%;
+}
+.nieto2 h2{
+	font-size:22px;
+	margin-bottom:-4px;
+}
+.nieto2 img{
+	display:block;
+	margin:auto;
+}
+.footer{
+	height:18vh;
+	margin-left:55px;
+	padding-top:2%;
+}
+.footer img{
+	margin-left:10px;
+}
+.footer2{
+	height:18vh;
+	margin-left:20px;
+	font-size:15px;
+}
+.footer2 p{
+	margin-bottom:-10px;
+}
+.footer2 img{
+	margin-top:10px;
+	margin-right:2px;
+}
+.hijo3{
+	display:flex;
+	padding:2%;
+}
+.hijo4{
+	display:flex;
+	padding:2%;
+}
+.hijo3 img{
+	border-radius:10px;
+}
+.hijo4 img{
+	border-radius:10px;
+}
+.text{
+	padding-right:1.5%;
+	padding-left:1.5%;
+}
+header{
+	display:flex;
+	flex-direction:row;
+	justify-content: space-between;
+	height:19vh;
+	width:100%;
+	background:linear-gradient(to top,#581004 30%, #000000 84% );
+	align-items: center;
+}
+header p{
+	width:10%;
+}
+nav{
+	display:flex;
+	flex-wrap:wrap;
+	flex-direction:row;
+	height:7vh;
+	width:70%;
+	border-top-right-radius:20px;
+	align-content:center;
+	justify-content:space-evenly;
+}
+nav a:link{
+	display:flex;
+	justify-content:center;
+	align-items: center;
+	color:#d8b984;
+	text-decoration:none;
+	font-weight:bold;
+	font-size:15px;
+	width:8%;
+	height:80%;
+	transition:font-size 1s, color 1s;
+	font-family: verdana,sanss-sheriff;
+}
+nav a:hover{
+	color:#ffffff;
+}
+nav a:visited{
+	display:flex;
+	justify-content:center;
+	align-items: center;
+	color:#d8b984;
+	text-decoration:none;
+	font-weight:bold;
+	font-size:15px;
+	width:8%;
+	height:80%;
+	transition:font-size 1s, color 1s;
+	font-family: verdana,sanss-sheriff;
+}
+main{
+	display:flex;
+	flex-direction:column;
+	background-color:#ffffff ;
+	height:auto;
+	width:100%;
+}
+section{
+	height:auto;
+	width:70%;
+	padding-left:5%;
+	padding-top:5%;
+	padding-bottom:2%;
+	padding-right:2%;
+}
+aside{
+	width:30%;
+	margin-bottom:15px;
+	margin-top:10px;
+	margin-right:9px;
+	padding-right:1%;
+	padding-left:1%;
+	padding-top:9%;
+}
+aside img{
+	margin-bottom:17px;
+}
+footer{
+	display:flex;
+	height:auto;
+	width:98%;
+	background-color:#666666;
+	padding:1%;
+	background:linear-gradient(to bottom,#581004 30%, #000000 84% );
+}
+footer p{
+	color:#ffffff;
+	font-family: verdana,sanss-sheriff;
+	flex-direction:column;
+}
+body{
+	margin:0;
+}
+h1{
+	color:#762543;
+	text-align:center;
+	font-size:25px;
+}
+.galeria{
+	font-size:32px;
+	text-decoration:underline;
+}
+h2{
+	font-size:20px;
+	color:#93795e;
+	text-align:center;
+}
+p{
+	line-height:35px;
+	text-align:justify;
+	color:#A09F9E;
+}
+ul{
+	line-height:35px;
+	color:#A09F9E;
+}
+
+@media screen and (max-width:800px)
+{
+	.hijo2{
+		flex-direction:column;
+		align-content:center;
+	}
+	.hijo3{
+		flex-direction:column;
+		align-content:center;
+		width:auto;
+	}
+	.hijo4{
+		flex-direction:column;
+		align-content:center;
+		width:auto;
+	}
+	.habsimg img{
+		width:100%;
+	}
+	.nieto{
+		width:90%;
+	}
+	.nieto2{
+		width:90%;
+	}
+	.logo{
+		margin-left:-200px;
+	}
+	.logo2{
+		text-align:center;
+		margin-right:40px;
+	}
+	#vlightbox1{
+		display:flex;
+		flex-direction:column;
+		align-items:center;
+	}
+	header,nav{
+		height:auto;
+		flex-direction:column;
+	}
+	nav a:link{
+		font-size:14px;
+		margin-bottom:5px;
+	}
+	footer{
+		align-items:center;
+		height:auto;
+		flex-direction:column;
+	}
+	.footer{
+		height:auto;
+		flex-direction:column;
+		margin-left:80px;
+	}
+	.footer2{
+		height:auto;
+		flex-direction:column;
+		font-size:14px;
+		text-align:center;
+	}
+	.footer2 p{
+		text-align:center;
+	}
+}
